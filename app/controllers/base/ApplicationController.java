@@ -15,7 +15,7 @@ public class ApplicationController extends Controller {
     }
 
     public Result testFirebase() {
-        TaxesAndFeesBO taxesAndFeesBO = ControllerUtils.calculateTaxesAndFees(10f, "US", "TX", null);
+        TaxesAndFeesBO taxesAndFeesBO = ControllerUtils.calculateTaxesAndFees(10f, "United States", "TX", null);
         return ok(Json.toJson(taxesAndFeesBO));
     }
 }

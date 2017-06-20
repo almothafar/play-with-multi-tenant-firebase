@@ -17,16 +17,6 @@ public class FirebaseDatabaseService {
     @Inject
     private FirebaseDatabaseProvider firebaseDatabaseProvider;
 
-    public Task<Void> updateUserPlan(String userId, String userPlanId, Map<String, Object> updatedParams) {
-        updatedParams.put("updatedAt", ServerValue.TIMESTAMP);
-        return this.updateObjectData(updatedParams, "plans/".concat(userId).concat("/").concat(userPlanId));
-    }
-
-    public Task<Void> updateUserPlanOrder(String userId, String orderId, Map<String, Object> updatedParams) {
-        updatedParams.put("updatedAt", ServerValue.TIMESTAMP);
-        return this.updateObjectData(updatedParams, "orders/".concat(userId).concat("/").concat(orderId).concat("/orderDetails/plan"));
-    }
-
     public Task<Void> addToUserAccount(String userId, Map<String, Object> paramsToAdd) {
         paramsToAdd.put("createdAt", ServerValue.TIMESTAMP);
         return this.pushDataToArray(paramsToAdd, "accounts/".concat(userId));

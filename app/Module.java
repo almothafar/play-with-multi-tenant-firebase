@@ -29,7 +29,5 @@ public class Module extends AbstractModule {
         bind(FirebaseDatabase.class).toProvider(FirebaseDatabaseProvider.class).asEagerSingleton();
     }
 
-
-
 }
 

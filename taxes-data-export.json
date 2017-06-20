@@ -1,0 +1,396 @@
+{
+  "appData" : {
+    "taxConfiguration" : {
+      "enableTaxes" : true,
+      "taxes" : {
+        "-KgsmW9p_lX-4wVKNRhf" : {
+          "country" : "United States",
+          "salesTax" : 7.57,
+          "wirelessTax" : 11.5
+        },
+        "-KgsmW9t96GyWKYRIt94" : {
+          "country" : "United States",
+          "salesTax" : 9.5,
+          "state" : "AL",
+          "wirelessTax" : 9.75
+        },
+        "-KgsmW9v1rIKbumBI2Fj" : {
+          "country" : "United States",
+          "salesTax" : 2.5,
+          "state" : "AK",
+          "wirelessTax" : 12.69
+        },
+        "-KgsmW9x0VRRkUU4--US" : {
+          "country" : "United States",
+          "salesTax" : 8.2,
+          "state" : "AZ",
+          "wirelessTax" : 11.98
+        },
+        "-KgsmW9zdBkEzbRdEFLZ" : {
+          "country" : "United States",
+          "salesTax" : 9.38,
+          "state" : "AR",
+          "wirelessTax" : 14.31
+        },
+        "-KgsmWA0nhQElKemhFCc" : {
+          "country" : "United States",
+          "salesTax" : 8.75,
+          "state" : "CA",
+          "wirelessTax" : 11.6
+        },
+        "-KgsmWA2x-e0LIzMfIFo" : {
+          "country" : "United States",
+          "salesTax" : 7.64,
+          "state" : "CO",
+          "wirelessTax" : 10.78
+        },
+        "-KgsmWA5WI9LalP4oMAv" : {
+          "country" : "United States",
+          "salesTax" : 6.35,
+          "state" : "CT",
+          "wirelessTax" : 7.44
+        },
+        "-KgsmWA7C30MEA_J9o04" : {
+          "country" : "United States",
+          "salesTax" : 5.75,
+          "state" : "DC",
+          "wirelessTax" : 11.63
+        },
+        "-KgsmWA93Br5bt1d5bjN" : {
+          "country" : "United States",
+          "salesTax" : 0,
+          "state" : "DE",
+          "wirelessTax" : 6.29
+        },
+        "-KgsmWABg2UsV-MAISHt" : {
+          "country" : "United States",
+          "salesTax" : 7.25,
+          "state" : "FL",
+          "wirelessTax" : 14.66
+        },
+        "-KgsmWADDpZKUisPUP0g" : {
+          "country" : "United States",
+          "salesTax" : 8,
+          "state" : "GA",
+          "wirelessTax" : 9.22
+        },
+        "-KgsmWAFnqELRf2MXuV5" : {
+          "country" : "United States",
+          "salesTax" : 4,
+          "state" : "HI",
+          "wirelessTax" : 6.38
+        },
+        "-KgsmWAIFuiLhJGwY_jt" : {
+          "country" : "United States",
+          "salesTax" : 6,
+          "state" : "ID",
+          "wirelessTax" : 2.17
+        },
+        "-KgsmWAKp6sNf5ThPUxM" : {
+          "country" : "United States",
+          "salesTax" : 8.88,
+          "state" : "IL",
+          "wirelessTax" : 17.46
+        },
+        "-KgsmWAMV7kWP8r1-fHK" : {
+          "country" : "United States",
+          "salesTax" : 7,
+          "state" : "IN",
+          "wirelessTax" : 11.06
+        },
+        "-KgsmWAPBVvyYMYYhEBh" : {
+          "country" : "United States",
+          "salesTax" : 6.5,
+          "state" : "IA",
+          "wirelessTax" : 8.71
+        },
+        "-KgsmWATsO2cKUOY-zDx" : {
+          "country" : "United States",
+          "salesTax" : 8.33,
+          "state" : "KS",
+          "wirelessTax" : 13.53
+        },
+        "-KgsmWAVxCmywTWC1rSp" : {
+          "country" : "United States",
+          "salesTax" : 6,
+          "state" : "KY",
+          "wirelessTax" : 10.56
+        },
+        "-KgsmWAXW18Ho2ZBynUt" : {
+          "country" : "United States",
+          "salesTax" : 9,
+          "state" : "LA",
+          "wirelessTax" : 7.29
+        },
+        "-KgsmWA_NGHoyfzpU3GN" : {
+          "country" : "United States",
+          "salesTax" : 5.5,
+          "state" : "ME",
+          "wirelessTax" : 7.35
+        },
+        "-KgsmWAb2pZ7CM9iKNoP" : {
+          "country" : "United States",
+          "salesTax" : 6,
+          "state" : "MD",
+          "wirelessTax" : 12.67
+        },
+        "-KgsmWAekBpG6XI2Xz28" : {
+          "country" : "United States",
+          "salesTax" : 6.25,
+          "state" : "MA",
+          "wirelessTax" : 8.93
+        },
+        "-KgsmWAfiCvumnVpsqTN" : {
+          "country" : "United States",
+          "salesTax" : 6,
+          "state" : "MI",
+          "wirelessTax" : 8.28
+        },
+        "-KgsmWAip7Bv3I_-HbIq" : {
+          "country" : "United States",
+          "salesTax" : 7.7,
+          "state" : "MN",
+          "wirelessTax" : 9.54
+        },
+        "-KgsmWAlfB-3FwC1RobC" : {
+          "country" : "United States",
+          "salesTax" : 7.5,
+          "state" : "MS",
+          "wirelessTax" : 9.14
+        },
+        "-KgsmWApJfau7PxvEaZD" : {
+          "country" : "United States",
+          "salesTax" : 8.29,
+          "state" : "MO",
+          "wirelessTax" : 14.79
+        },
+        "-KgsmWAvobh4hFDK9RUs" : {
+          "country" : "United States",
+          "salesTax" : 0,
+          "state" : "MT",
+          "wirelessTax" : 6.11
+        },
+        "-KgsmWAxe9klKkFLqTf5" : {
+          "country" : "United States",
+          "salesTax" : 7,
+          "state" : "NE",
+          "wirelessTax" : 18.53
+        },
+        "-KgsmWB0l5_k_yeUxhtl" : {
+          "country" : "United States",
+          "salesTax" : 7.85,
+          "state" : "NV",
+          "wirelessTax" : 1.95
+        },
+        "-KgsmWB5HUgCYA7lfXae" : {
+          "country" : "United States",
+          "salesTax" : 0,
+          "state" : "NH",
+          "wirelessTax" : 8.22
+        },
+        "-KgsmWB7plApdCl06oT4" : {
+          "country" : "United States",
+          "salesTax" : 7,
+          "state" : "NJ",
+          "wirelessTax" : 8.93
+        },
+        "-KgsmWB9a7QqXYL6rER1" : {
+          "country" : "United States",
+          "salesTax" : 7.75,
+          "state" : "NM",
+          "wirelessTax" : 11.22
+        },
+        "-KgsmWBEHGwLKTVoZkmv" : {
+          "country" : "United States",
+          "salesTax" : 8.44,
+          "state" : "NY",
+          "wirelessTax" : 17.9
+        },
+        "-KgsmWBHNDvq0OByry-t" : {
+          "country" : "United States",
+          "salesTax" : 7,
+          "state" : "NC",
+          "wirelessTax" : 8.59
+        },
+        "-KgsmWBLf6Gevvag9XTK" : {
+          "country" : "United States",
+          "salesTax" : 7,
+          "state" : "ND",
+          "wirelessTax" : 12.27
+        },
+        "-KgsmWBMQToJZxkTQJsO" : {
+          "country" : "United States",
+          "salesTax" : 7.75,
+          "state" : "OH",
+          "wirelessTax" : 8.42
+        },
+        "-KgsmWBOHxBNYtIWylMz" : {
+          "country" : "United States",
+          "salesTax" : 8.45,
+          "state" : "OK",
+          "wirelessTax" : 10.88
+        },
+        "-KgsmWBQwAI2sR225aT3" : {
+          "country" : "United States",
+          "salesTax" : 0,
+          "state" : "OR",
+          "wirelessTax" : 1.8
+        },
+        "-KgsmWBRgX_TXhqlfugJ" : {
+          "country" : "United States",
+          "salesTax" : 7,
+          "state" : "PA",
+          "wirelessTax" : 14.14
+        },
+        "-KgsmWBTkktsJMwtZ2Ir" : {
+          "country" : "United States",
+          "salesTax" : 11.5,
+          "state" : "PR",
+          "wirelessTax" : 13.45
+        },
+        "-KgsmWBVMYTd1zG1tTt3" : {
+          "country" : "United States",
+          "salesTax" : 7,
+          "state" : "RI",
+          "wirelessTax" : 14.7
+        },
+        "-KgsmWBdZkfmjGB8URgW" : {
+          "country" : "United States",
+          "salesTax" : 8.25,
+          "state" : "SC",
+          "wirelessTax" : 10.58
+        },
+        "-KgsmWBerLqm95W0Rzkd" : {
+          "country" : "United States",
+          "salesTax" : 6,
+          "state" : "SD",
+          "wirelessTax" : 13.14
+        },
+        "-KgsmWBgLeGG-oeYPI52" : {
+          "country" : "United States",
+          "salesTax" : 9.25,
+          "state" : "TN",
+          "wirelessTax" : 11.99
+        },
+        "-KgsmWBhnr31ZmBZ5hkG" : {
+          "country" : "United States",
+          "salesTax" : 8.25,
+          "state" : "TX",
+          "wirelessTax" : 11.53
+        },
+        "-KgsmWBi3ksGtpgyeGVY" : {
+          "country" : "United States",
+          "salesTax" : 6.8,
+          "state" : "YT",
+          "wirelessTax" : 12.77
+        },
+        "-KgsmWBkOGFRHDj2icSS" : {
+          "country" : "United States",
+          "salesTax" : 6.5,
+          "state" : "VT",
+          "wirelessTax" : 8.5
+        },
+        "-KgsmWBlKTN0H2wIRMin" : {
+          "country" : "United States",
+          "salesTax" : 5.65,
+          "state" : "VA",
+          "wirelessTax" : 6.61
+        },
+        "-KgsmWBoXhrBGrnor_Yy" : {
+          "country" : "United States",
+          "salesTax" : 9.15,
+          "state" : "WA",
+          "wirelessTax" : 18.69
+        },
+        "-KgsmWBqBkaM-Tsmm-DQ" : {
+          "country" : "United States",
+          "salesTax" : 7,
+          "state" : "WV",
+          "wirelessTax" : 6.43
+        },
+        "-KgsmWBtUjJ9FgRJLYC7" : {
+          "country" : "United States",
+          "salesTax" : 5.55,
+          "state" : "WI",
+          "wirelessTax" : 7.18
+        },
+        "-KgsmWBui0T7oorQdC92" : {
+          "country" : "United States",
+          "salesTax" : 5.5,
+          "state" : "WY",
+          "wirelessTax" : 7.95
+        },
+        "-KgsmWBxiJ006RmllkI-" : {
+          "country" : "Puerto Rico",
+          "salesTax" : 11.5,
+          "wirelessTax" : 13.45
+        },
+        "-KgsmWBzFLgPQPdpEGKU" : {
+          "country" : "Canada",
+          "salesTax" : 15,
+          "wirelessTax" : 0
+        },
+        "-KgsmWC18mBBKdzzLvtd" : {
+          "country" : "Canada",
+          "salesTax" : 5,
+          "state" : "AB",
+          "wirelessTax" : 0
+        },
+        "-KgsmWC2KYW1d3kl7oLY" : {
+          "country" : "Canada",
+          "salesTax" : 12,
+          "state" : "BC",
+          "wirelessTax" : 0
+        },
+        "-KgsmWC4pdFf1LC-SGqR" : {
+          "country" : "Canada",
+          "salesTax" : 13,
+          "state" : "MB",
+          "wirelessTax" : 0
+        },
+        "-KgsmWC6vvzCq5a6ZyRD" : {
+          "country" : "Canada",
+          "salesTax" : 15,
+          "state" : "NB",
+          "wirelessTax" : 0
+        },
+        "-KgsmWC7_wg1pI7UUkA4" : {
+          "country" : "Canada",
+          "salesTax" : 15,
+          "state" : "NL",
+          "wirelessTax" : 0
+        },
+        "-KgsmWC81Ge0MgFyVvi0" : {
+          "country" : "Canada",
+          "salesTax" : 15,
+          "state" : "NS",
+          "wirelessTax" : 0
+        },
+        "-KgsmWCAPa5pmBJBnlN2" : {
+          "country" : "Canada",
+          "salesTax" : 13,
+          "state" : "ON",
+          "wirelessTax" : 0
+        },
+        "-KgsmWCBVmG7HuwGILvb" : {
+          "country" : "Canada",
+          "salesTax" : 15,
+          "state" : "PE",
+          "wirelessTax" : 0
+        },
+        "-KgsmWCEqJNiaDK2J51R" : {
+          "country" : "Canada",
+          "salesTax" : 14.975,
+          "state" : "QC",
+          "wirelessTax" : 0
+        },
+        "-KgsmWCG3Kb0t4KAGKR9" : {
+          "country" : "Canada",
+          "salesTax" : 10,
+          "state" : "SK",
+          "wirelessTax" : 0
+        }
+      }
+    }
+  }
+}
