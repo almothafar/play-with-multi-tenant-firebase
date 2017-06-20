@@ -1,0 +1,58 @@
+<!-- https://www.playframework.com/documentation/latest/SettingsLogger -->
+
+<configuration>
+    <property name="LOG_HOME" value="${application.home:-.}/logs"/>
+
+    <conversionRule conversionWord="coloredLevel" converterClass="play.api.libs.logback.ColoredLevel"/>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/application.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Daily rollover with compression -->
+            <fileNamePattern>${LOG_HOME}/application-log-%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <!-- keep 10 days worth of history -->
+            <maxHistory>10</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%date{yyyy-MM-dd HH:mm:ss ZZZZ} [%level] from %logger in %thread - %message%n%xException</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%date{yyyy-MM-dd HH:mm:ss z}: %coloredLevel - %logger - %message%n%xException</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ASYNCSTDOUT" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="STDOUT"/>
+    </appender>
+
+    <appender name="ASYNCFILE" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="FILE" />
+    </appender>
+
+    <root name="HeroMobile" level="DEBUG" additivity="false">
+        <appender-ref ref="ASYNCFILE"/>
+        <appender-ref ref="ASYNCSTDOUT"/>
+    </root>
+
+    <!-- Off these ones as they are annoying, and anyway we manage configuration ourselves -->
+    <logger name="com.avaje.ebean.config.PropertyMapLoader" level="OFF"/>
+    <logger name="com.avaje.ebeaninternal.server.core.XmlConfigLoader" level="OFF"/>
+    <logger name="com.avaje.ebeaninternal.server.lib.BackgroundThread" level="OFF"/>
+    <logger name="com.gargoylesoftware.htmlunit.javascript" level="OFF"/>
+    <logger name="ch.qos.logback.*" level="WARN"/>
+    <logger name="c.q.l.*" level="WARN"/>
+    <!--<logger name="io.ebean.SQL" level="TRACE" />-->
+
+    <root level="WARN">
+        <appender-ref ref="ASYNCFILE"/>
+        <appender-ref ref="ASYNCSTDOUT"/>
+    </root>
+
+    <logger name="play" level="INFO"/>
+    <logger name="application" level="DEBUG"/>
+
+
+</configuration>

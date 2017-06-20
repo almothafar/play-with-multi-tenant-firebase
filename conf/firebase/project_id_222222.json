@@ -1,0 +1,12 @@
+{
+  "project_id": "project_id_22222",
+  "private_key_id": "2222222222222222222222222222221",
+  "private_key": "-----BEGIN PRIVATE KEY---- XYZ -----END PRIVATE KEY-----",
+  "client_email": "firebase-adminsdk-urtjy@project_id_22222.iam.gserviceaccount.com",
+  "client_id": "22222222222222211222222222222",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-urtjy%40project_id_22222.iam.gserviceaccount.com",
+  "type": "service_account",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs"
+}

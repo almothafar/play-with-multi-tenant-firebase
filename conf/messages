@@ -1,0 +1,2 @@
+error.no_form_data=Invalid Operation, You are trying to send form without data
+error.internal_server_error=Internal Server Error !

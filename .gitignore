@@ -1,0 +1,12 @@
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/app/.vscode
+/RUNNING_PID
+/project
+!/project/build.properties
+!/project/plugins.sbt
