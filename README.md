@@ -39,3 +39,9 @@ There are several demonstration files available in this template.
 - ActionCreator.java:
 
   Where to intercept requests and read headers.
+
+## Configuration
+
+1. Load sample data that provided inside [taxes-data-export.json](https://github.com/almothafar/play-with-multi-tenant-firebase/blob/master/taxes-data-export.json) into your firebase database project
+2. Add your firebase configuration inside `conf/firebase` folder, namign the file with exactly your `project_id` that provided from firebase
+3. inside `application.conf` provide list of your `WEBSITE_ID`s with the value for its `project_id`.
