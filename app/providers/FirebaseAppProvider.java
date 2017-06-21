@@ -34,24 +34,26 @@ public class FirebaseAppProvider implements Provider<FirebaseApp> {
     public FirebaseApp get() {
         HashMap<String, String> firebaseProjects = (HashMap<String, String>) configuration.getObject("firebase");
         firebaseProjects.forEach((websiteId, projectId) -> {
-            FileInputStream serviceAccount = null;
-            try {
-                serviceAccount = new FileInputStream(environment.classLoader().getResource(String.format("firebase/%s.json", projectId)).getPath());
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-                return;
+            if (FirebaseApp.getApps().size() == 0) {
+                FileInputStream serviceAccount = null;
+                try {
+                    serviceAccount = new FileInputStream(environment.classLoader().getResource(String.format("firebase/%s.json", projectId)).getPath());
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                    return;
+                }
+
+                FirebaseOptions options = new FirebaseOptions.Builder().setCredential(FirebaseCredentials.fromCertificate(serviceAccount))
+                        .setDatabaseUrl(String.format("https://%s.firebaseio.com/", projectId))
+                        .build();
+
+
+                FirebaseApp firebaseApp = FirebaseApp.initializeApp(options, projectId);
+
+                logger.info("FirebaseApp initialized");
             }
-
-            FirebaseOptions options = new FirebaseOptions.Builder().setCredential(FirebaseCredentials.fromCertificate(serviceAccount))
-                    .setDatabaseUrl(String.format("https://%s.firebaseio.com/", projectId))
-                    .build();
-
-
-            FirebaseApp firebaseApp = FirebaseApp.initializeApp(options, projectId);
-
-            logger.info("FirebaseApp initialized");
         });
 
-        return FirebaseApp.getInstance();
+        return FirebaseApp.getInstance(String.valueOf(firebaseProjects.values().toArray()[0])); // FIXME this is temp solution
     }
 }
